@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Almeida.Infrastructure</AssemblyName>
+    <RootNamespace>Almeida.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Comunication\Email\" />
+    <Folder Include="Comunication\Telegram\" />
+    <Folder Include="Data\" />
+    <Folder Include="File\" />
+    <Folder Include="Autentication\" />
+    <Folder Include="Image\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>
