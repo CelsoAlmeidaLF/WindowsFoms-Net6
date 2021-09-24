@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ChildForms\**" />
+    <Compile Remove="Images\**" />
+    <EmbeddedResource Remove="ChildForms\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <None Remove="ChildForms\**" />
+    <None Remove="Images\**" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Almeida.Infrastructure</AssemblyName>
+    <RootNamespace>Almeida.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Autentication\**" />
+    <Compile Remove="Comunication\**" />
+    <Compile Remove="File\**" />
+    <Compile Remove="Image\**" />
+    <Compile Remove="Repository\**" />
+    <EmbeddedResource Remove="Autentication\**" />
+    <EmbeddedResource Remove="Comunication\**" />
+    <EmbeddedResource Remove="File\**" />
+    <EmbeddedResource Remove="Image\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Autentication\**" />
+    <None Remove="Comunication\**" />
+    <None Remove="File\**" />
+    <None Remove="Image\**" />
+    <None Remove="Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>

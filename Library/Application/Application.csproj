@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Almeida.Application</AssemblyName>
+    <RootNamespace>Almeida.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Business\**" />
+    <Compile Remove="Model\**" />
+    <EmbeddedResource Remove="Business\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <None Remove="Business\**" />
+    <None Remove="Model\**" />
+  </ItemGroup>
+
+</Project>
