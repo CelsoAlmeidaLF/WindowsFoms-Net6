@@ -26,6 +26,10 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="File\" />
+    <Folder Include="Autentication\" />
+    <Folder Include="Image\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>
